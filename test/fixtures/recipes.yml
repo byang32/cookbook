@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: "Ice Cream"
+  ingredients: "3 scoops vanilla ice cream, chocolate syrup"
+  instructions: "Scoop ice cream into the bowl and pour chocolate syrup on top."
+
+two:
+  title: "Toast"
+  ingredients: "bread, butter, jelly"
+  instructions: "Place bread in the toaster for 1 minute. Remove from toaster adn apply butter to each piece."
+

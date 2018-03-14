@@ -1,0 +1,16 @@
+<article>
+    <header>
+        <h2>
+            <%= @recipe.title %>
+            [ <%= link_to 'Edit', edit_recipe_path(@recipe) %> ]
+        </h2>
+    </header>
+    
+    <h3>Ingredients:</h3>
+    <p><%= @recipe.ingredients %></p>
+
+    <h3>Instructions:</h3>
+    <p><%= @recipe.instructions %></p>
+</article>
+<p><%= link_to 'Back', recipes_path %></p>
+<p>Category: <%= h(@recipe.category.name) rescue 'No category found' %></p>

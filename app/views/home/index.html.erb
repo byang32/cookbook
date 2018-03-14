@@ -1,0 +1,9 @@
+<%= render "/shared/search" %>
+<h2>Latest Recipes</h2>
+<% if @latest_recipe %>
+<h4><%=@latest_recipe.title %></h4>
+<p><%=@latest_recipe.ingredients %></p>
+<p><%=@latest_recipe.instructions %></p>
+<% else %>
+  <p>There are no recipes to display</p>
+<% end %>

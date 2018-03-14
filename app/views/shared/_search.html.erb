@@ -1,0 +1,5 @@
+<%= form_tag recipes_url, method: :get do %>
+  <label for="query">Keywords: </label>
+  <input type="seach" id="query" name="q" value="<%= params[:q] %>">
+  <input type="submit" value="Search">
+<% end %>

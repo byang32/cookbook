@@ -1,0 +1,9 @@
+$noticeColor: #f4a142;
+$noticeBorderColor: #41a0f4;
+
+#notice {
+    color: $noticeColor;
+    text-align: center;
+    border: 2px solid $noticeBorderColor;
+    margin-bottom: 10px;
+}

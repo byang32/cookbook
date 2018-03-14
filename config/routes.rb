@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
+  resources :recipes
+  get '/about', to: 'home#about', as: 'about'
+  get '/admin', to: 'admin_controller#index', as: 'admin'
+  root to: 'home#index'
+
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # See how all yourls routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

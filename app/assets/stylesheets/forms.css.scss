@@ -1,0 +1,26 @@
+$errorColor: #c00;
+
+.field_with_errors {
+    background-color: $errorColor;
+    color: #fff;
+    display: inline-block;
+    padding: 1px;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+#error_explanation {
+    border: 2px solid $errorColor;
+    margin-bottom: 10px;
+    
+  h2{
+    background-color: $errorColor;
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px 5px 5px 15px;
+  }
+}
+
